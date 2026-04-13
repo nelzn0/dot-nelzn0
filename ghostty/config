@@ -1,0 +1,20 @@
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+
+# Matches Foot's 25x25 padding for that clean look
+window-padding-x = 25
+window-padding-y = 25
+window-decoration = false
+
+# Lower opacity for the wallpaper vibe
+background-opacity = 0.65
+background-blur-radius = 20
+
+# Force Zsh
+command = /usr/bin/zsh
+
+# Use a bar cursor (matches your Foot 'beam' style)
+cursor-style = bar
+
+custom-shader = shaders/cursor_warp.glsl
+custom-shader = shaders/in-game-crt-cursor.glsl
